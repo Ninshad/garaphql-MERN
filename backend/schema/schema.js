@@ -71,6 +71,7 @@ const RootQuery = new GraphQLObjectType({
   },
 });
 
+
 // Mutations
 const mutation = new GraphQLObjectType({
   name: 'Mutation',
@@ -93,6 +94,7 @@ const mutation = new GraphQLObjectType({
         return client.save();
       },
     },
+
     // Delete a client
     deleteClient: {
       type: ClientType,
