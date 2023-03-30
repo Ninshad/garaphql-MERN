@@ -19,6 +19,7 @@ export default function EditProjectForm({ project }) {
     }
   });
 
+  
   const [updateProject] = useMutation(UPDATE_PROJECT, {
     variables: { id: project.id, name, description, status },
     refetchQueries: [{ query: GET_PROJECT, variables: { id: project.id } }],

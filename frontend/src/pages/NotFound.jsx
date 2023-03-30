@@ -10,6 +10,7 @@ export default function NotFound() {
       <Link to='/' className='btn btn-primary'>
         Go Back
       </Link>
+      
     </div>
   );
 }

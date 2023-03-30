@@ -33,6 +33,7 @@ export default function Project() {
           <EditProjectForm project={data.project} />
 
           <DeleteProjectButton projectId={data.project.id} />
+          
         </div>
       )}
     </>

@@ -11,6 +11,7 @@ const ADD_CLIENT = gql`
   }
 `;
 
+
 const DELETE_CLIENT = gql`
   mutation deleteClient($id: ID!) {
     deleteClient(id: $id) {
@@ -21,5 +22,6 @@ const DELETE_CLIENT = gql`
     }
   }
 `;
+
 
 export { ADD_CLIENT, DELETE_CLIENT };

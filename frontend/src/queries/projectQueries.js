@@ -10,6 +10,7 @@ const GET_PROJECTS = gql`
   }
 `;
 
+
 const GET_PROJECT = gql`
   query getProject($id: ID!) {
     project(id: $id) {

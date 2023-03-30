@@ -13,6 +13,7 @@ export default function DeleteProjectButton({ projectId }) {
     refetchQueries: [{ query: GET_PROJECTS }],
   });
 
+  
   return (
     <div className='d-flex mt-5 ms-auto'>
       <button className='btn btn-danger m-2' onClick={deleteProject}>
